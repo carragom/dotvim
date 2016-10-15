@@ -30,12 +30,18 @@ set background=dark
 colorscheme solarized
 
 set sw=4 ts=4 et
+set cursorline
 
 if &diff
     syntax off
 endif
 
-map <Leader>n <plug>NERDTreeTabsToggle<CR>
+map <Leader>n <plug>NERDTreeTabsToggle<cr>
+nmap <silent> <a-up> :wincmd k<cr>
+nmap <silent> <a-down> :wincmd j<cr>
+nmap <silent> <a-left> :wincmd h<cr>
+nmap <silent> <a-right> :wincmd l<cr>
+
 
 "let g:Powerline_symbols = 'fancy'
 let g:airline_powerline_fonts = 1
@@ -47,4 +53,5 @@ let g:ctrlp_working_path_mode = 'ra'
 let g:syntastic_typescript_tsc_args = '-t ES5 -m amd'
 let g:syntastic_javascript_checkers = ['eslint']
 let g:xmledit_enable_html = 1
+let g:gitgutter_max_signs = 2048
 "let g:gitgutter_sign_column_always = 1
