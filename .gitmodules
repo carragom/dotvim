@@ -3,13 +3,13 @@
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "bundle/delimitMate"]
 	path = bundle/delimitMate
-	url = https://github.com/Raimondi/delimitMate
+	url = https://github.com/Raimondi/delimitMate.git
 [submodule "bundle/editorconfig-vim"]
 	path = bundle/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
 [submodule "bundle/javacomplete"]
 	path = bundle/javacomplete
-	url = https://github.com/Shougo/javacomplete
+	url = https://github.com/Shougo/javacomplete.git
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -27,13 +27,10 @@
 	url = https://github.com/Chiel92/vim-autoformat.git
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
-	url = https://github.com/tpope/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
 [submodule "bundle/vim-indent-guides"]
 	path = bundle/vim-indent-guides
-	url = https://github.com/nathanaelkane/vim-indent-guides
-[submodule "bundle/vim-matchit"]
-	path = bundle/vim-matchit
-	url = https://github.com/edsono/vim-matchit.git
+	url = https://github.com/nathanaelkane/vim-indent-guides.git
 [submodule "bundle/vim-multiple-cursors"]
 	path = bundle/vim-multiple-cursors
 	url = https://github.com/terryma/vim-multiple-cursors.git
@@ -45,13 +42,10 @@
 	url = https://github.com/tpope/vim-sensible.git
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
+	url = https://github.com/tpope/vim-surround.git
 [submodule "bundle/vim-unimpaired"]
 	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "bundle/xmledit"]
-	path = bundle/xmledit
-	url = https://github.com/sukima/xmledit.git
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
@@ -64,12 +58,6 @@
 [submodule "bundle/vim-gitgutter"]
 	path = bundle/vim-gitgutter
 	url = https://github.com/airblade/vim-gitgutter.git
-[submodule "bundle/L9"]
-	path = bundle/L9
-	url = https://github.com/vim-scripts/L9.git
-[submodule "bundle/vim-polyglot"]
-	path = bundle/vim-polyglot
-	url = https://github.com/sheerun/vim-polyglot.git
 [submodule "bundle/tlib_vim"]
 	path = bundle/tlib_vim
 	url = https://github.com/tomtom/tlib_vim.git
@@ -82,3 +70,15 @@
 [submodule "bundle/vim-snippets"]
 	path = bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "bundle/vim-polyglot"]
+	path = bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "bundle/xmledit"]
+	path = bundle/xmledit
+	url = https://github.com/sukima/xmledit.git
+[submodule "bundle/vim-matchit"]
+	path = bundle/vim-matchit
+	url = https://github.com/phongnh/vim-matchit.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git
