@@ -78,7 +78,7 @@
 	url = https://github.com/sukima/xmledit.git
 [submodule "bundle/vim-matchit"]
 	path = bundle/vim-matchit
-	url = https://github.com/phongnh/vim-matchit.git
+	url = https://github.com/tmhedberg/matchit.git
 [submodule "bundle/L9"]
 	path = bundle/L9
 	url = https://github.com/vim-scripts/L9.git
